@@ -1,0 +1,8 @@
+references:
+  - "https://en.wikipedia.org/wiki/Audi_e-tron_GT"
+
+generations:
+  - name: "First Generation"
+    start_year: 2021
+    end_year: null
+    description: "An 800 V battery-electric gran turismo on the J1 platform shared with the Porsche Taycan."
