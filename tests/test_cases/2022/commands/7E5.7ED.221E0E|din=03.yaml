@@ -1,0 +1,18 @@
+command_id: 7E5.7ED.221E0E|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_T_MAX: 13
+    ETRONGT_BMS_T_MAX_CELL: 9
+  response: 7ED05621E0E7109
+- expected_values:
+    ETRONGT_BMS_T_MAX: 17
+    ETRONGT_BMS_T_MAX_CELL: 30
+  response: 7ED05621E0E751E
+- expected_values:
+    ETRONGT_BMS_T_MAX: 20
+    ETRONGT_BMS_T_MAX_CELL: 5
+  response: 7ED05621E0E7805
+- expected_values:
+    ETRONGT_BMS_T_MAX: 24
+    ETRONGT_BMS_T_MAX_CELL: 9
+  response: 7ED05621E0E7C09

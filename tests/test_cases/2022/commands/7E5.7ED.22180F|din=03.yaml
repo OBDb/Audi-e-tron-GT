@@ -1,0 +1,20 @@
+command_id: 7E5.7ED.22180F|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_SHUNT_T: 16
+  response: 7ED0462180F42
+- expected_values:
+    ETRONGT_BMS_SHUNT_T: 17
+  response: 7ED0462180F43
+- expected_values:
+    ETRONGT_BMS_SHUNT_T: 18
+  response: 7ED0462180F44
+- expected_values:
+    ETRONGT_BMS_SHUNT_T: 20
+  response: 7ED0462180F46
+- expected_values:
+    ETRONGT_BMS_SHUNT_T: 22
+  response: 7ED0462180F48
+- expected_values:
+    ETRONGT_BMS_SHUNT_T: 24
+  response: 7ED0462180F4A

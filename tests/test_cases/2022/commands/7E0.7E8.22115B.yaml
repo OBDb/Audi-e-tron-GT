@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22115B
+test_cases:
+- expected_values:
+    ETRONGT_VSS_DIR: 0
+  response: 7E80562115B0000
+- expected_values:
+    ETRONGT_VSS_DIR: 103.98438
+  response: 7E80562115B19FF
+- expected_values:
+    ETRONGT_VSS_DIR: -3.26562
+  response: 7E80562115BFF2F

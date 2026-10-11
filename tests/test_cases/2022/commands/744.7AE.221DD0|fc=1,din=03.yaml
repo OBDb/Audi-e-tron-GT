@@ -1,0 +1,8 @@
+command_id: 744.7AE.221DD0|fc=1,din=03
+test_cases:
+- expected_values:
+    ETRONGT_CHRGR_SOC_DISP: 58
+  response: 7AE04621DD074
+- expected_values:
+    ETRONGT_CHRGR_SOC_DISP: 73
+  response: 7AE04621DD092

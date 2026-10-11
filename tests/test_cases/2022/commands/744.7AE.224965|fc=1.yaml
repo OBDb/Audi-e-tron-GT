@@ -1,0 +1,77 @@
+command_id: 744.7AE.224965|fc=1
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_KWH: 41.4
+  response: |-
+    7AE100D624965033C7F
+    7AE21F501120204A677
+- expected_values:
+    ETRONGT_HVBAT_KWH: 41.6
+  response: |-
+    7AE100D62496503407F
+    7AE21E80111B004AB76
+- expected_values:
+    ETRONGT_HVBAT_KWH: 41.8
+  response: |-
+    7AE100D62496503447F
+    7AE21E801116404AF76
+- expected_values:
+    ETRONGT_HVBAT_KWH: 41.85
+  response: |-
+    7AE100D62496503457F
+    7AE21AF01115F04B175
+- expected_values:
+    ETRONGT_HVBAT_KWH: 42.95
+  response: |-
+    7AE100D624965035B7F
+    7AE212E0110DB04CE74
+- expected_values:
+    ETRONGT_HVBAT_KWH: 43.65
+  response: |-
+    7AE100D62496503697D
+    7AE21F401102304E273
+- expected_values:
+    ETRONGT_HVBAT_KWH: 44.7
+  response: |-
+    7AE100D624965037E7E
+    7AE21A5010FB004FA73
+- expected_values:
+    ETRONGT_HVBAT_KWH: 45
+  response: |-
+    7AE100D62496503847F
+    7AE2180010F8D050272
+- expected_values:
+    ETRONGT_HVBAT_KWH: 45.65
+  response: |-
+    7AE100D62496503917E
+    7AE21FE010EE3051370
+- expected_values:
+    ETRONGT_HVBAT_KWH: 45.85
+  response: |-
+    7AE100D62496503957F
+    7AE21C0010E6D05176F
+- expected_values:
+    ETRONGT_HVBAT_KWH: 46.8
+  response: |-
+    7AE100D62496503A87A
+    7AE21C3010DA105306D
+- expected_values:
+    ETRONGT_HVBAT_KWH: 50.8
+  response: |-
+    7AE100D62496503F881
+    7AE213C010C0D057B6A
+- expected_values:
+    ETRONGT_HVBAT_KWH: 50.9
+  response: |-
+    7AE100D62496503FA7F
+    7AE21EB010BD4057D69
+- expected_values:
+    ETRONGT_HVBAT_KWH: 51.75
+  response: |-
+    7AE100D624965040B7F
+    7AE219B010B71059269
+- expected_values:
+    ETRONGT_HVBAT_KWH: 52.95
+  response: |-
+    7AE100D62496504237E
+    7AE21A2010AB405B168

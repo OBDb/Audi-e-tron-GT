@@ -1,0 +1,29 @@
+command_id: 714.77E.222211|fc=1
+test_cases:
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 0
+  response: '77E0462221100'
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 44.31373
+  response: '77E0462221171'
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 44.70588
+  response: '77E0462221172'
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 47.05882
+  response: '77E0462221178'
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 47.84314
+  response: 77E046222117A
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 49.01961
+  response: 77E046222117D
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 49.41176
+  response: 77E046222117E
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 49.80392
+  response: 77E046222117F
+- expected_values:
+    ETRONGT_TRON_PQ35_CHG_AIR_P: 100
+  response: 77E04622211FF

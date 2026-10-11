@@ -1,0 +1,11 @@
+command_id: 746.7B0.22260D|fc=1,din=03
+test_cases:
+- expected_values:
+    ETRONGT_FR_DEFL_T: 0
+  response: 7B00562260D00DA
+- expected_values:
+    ETRONGT_FR_DEFL_T: 0
+  response: 7B00562260D00FF
+- expected_values:
+    ETRONGT_FR_DEFL_T: 0.333
+  response: 7B00562260D0101

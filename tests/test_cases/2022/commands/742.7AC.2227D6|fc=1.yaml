@@ -1,0 +1,14 @@
+command_id: 742.7AC.2227D6|fc=1
+test_cases:
+- expected_values:
+    ETRONGT_PTC_PUMP_PWR: 0
+    ETRONGT_PTC_PUMP_RPM: 0
+  response: 7AC066227D6000000
+- expected_values:
+    ETRONGT_PTC_PUMP_PWR: 360
+    ETRONGT_PTC_PUMP_RPM: 900
+  response: 7AC066227D603D509
+- expected_values:
+    ETRONGT_PTC_PUMP_PWR: 1200
+    ETRONGT_PTC_PUMP_RPM: 3300
+  response: 7AC066227D60BD51E

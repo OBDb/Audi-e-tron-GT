@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.22181D|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_COOL_OUT_T: 9
+  response: 7ED0462181D3B
+- expected_values:
+    ETRONGT_BMS_COOL_OUT_T: 24
+  response: 7ED0462181D4A

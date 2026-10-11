@@ -1,0 +1,12 @@
+command_id: 7E5.7ED.221838|din=03
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_MOD24_T1: 12
+    ETRONGT_HVBAT_MOD24_T2: 12
+    ETRONGT_HVBAT_MOD24_T3: 18
+  response: 7ED066218383E3E44
+- expected_values:
+    ETRONGT_HVBAT_MOD24_T1: 24
+    ETRONGT_HVBAT_MOD24_T2: 23
+    ETRONGT_HVBAT_MOD24_T3: 28
+  response: 7ED066218384A494E

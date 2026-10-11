@@ -1,0 +1,57 @@
+command_id: 746.7B0.2227C3|fc=1
+test_cases:
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 11.5
+  response: |-
+    7B0100C6227C3003C00
+    7B0213E0099021700AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 6.5
+  response: |-
+    7B0100C6227C3004000
+    7B0213F00A2020D00AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 6.5
+  response: |-
+    7B0100C6227C3004100
+    7B0214000A2020D00AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 11.5
+  response: |-
+    7B0100C6227C3004200
+    7B0214300A1021700AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 74.5
+  response: |-
+    7B0100C6227C3005000
+    7B0217A00DB019500AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 24
+  response: |-
+    7B0100C6227C3005B00
+    7B0215A00B5023000AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 100
+  response: |-
+    7B0100C6227C3005E00
+    7B0216800CC01EF00AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 82
+  response: |-
+    7B0100C6227C3006500
+    7B0218300EE01A400AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 56.5
+  response: |-
+    7B0100C6227C300C100
+    7B021D7010D027100AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 56
+  response: |-
+    7B0100C6227C300C300
+    7B021C400D7037000AA
+- expected_values:
+    ETRONGT_HVAC_OUTSIDE_HUM: 18.5
+  response: |-
+    7B0100C6227C300C500
+    7B021AF00E8032500AA

@@ -1,0 +1,23 @@
+command_id: FC00.FE007B.22028C|ta=7B,c=17
+test_cases:
+- expected_values:
+    ETRONGT_SOC: 23.6
+  response: 17FE007B0462028C3B
+- expected_values:
+    ETRONGT_SOC: 24
+  response: 17FE007B0462028C3C
+- expected_values:
+    ETRONGT_SOC: 24.4
+  response: 17FE007B0462028C3D
+- expected_values:
+    ETRONGT_SOC: 24.8
+  response: 17FE007B0462028C3E
+- expected_values:
+    ETRONGT_SOC: 25.2
+  response: 17FE007B0462028C3F
+- expected_values:
+    ETRONGT_SOC: 25.6
+  response: 17FE007B0462028C40
+- expected_values:
+    ETRONGT_SOC: 28
+  response: 17FE007B0462028C46

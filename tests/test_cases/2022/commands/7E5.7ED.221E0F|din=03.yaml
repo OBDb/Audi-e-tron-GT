@@ -1,0 +1,18 @@
+command_id: 7E5.7ED.221E0F|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_T_MIN: 11
+    ETRONGT_BMS_T_MIN_CELL: 25
+  response: 7ED05621E0F6F19
+- expected_values:
+    ETRONGT_BMS_T_MIN: 12
+    ETRONGT_BMS_T_MIN_CELL: 9
+  response: 7ED05621E0F7009
+- expected_values:
+    ETRONGT_BMS_T_MIN: 14
+    ETRONGT_BMS_T_MIN_CELL: 33
+  response: 7ED05621E0F7221
+- expected_values:
+    ETRONGT_BMS_T_MIN: 22
+    ETRONGT_BMS_T_MIN_CELL: 12
+  response: 7ED05621E0F7A0C

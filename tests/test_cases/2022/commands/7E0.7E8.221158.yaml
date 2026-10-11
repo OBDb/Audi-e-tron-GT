@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221158
+test_cases:
+- expected_values:
+    ETRONGT_MAX_DCHA_CUR_2: -860
+  response: 7E805621158DE68
+- expected_values:
+    ETRONGT_MAX_DCHA_CUR_2: -845
+  response: 7E805621158DEFE
+- expected_values:
+    ETRONGT_MAX_DCHA_CUR_2: -843
+  response: 7E805621158DF12

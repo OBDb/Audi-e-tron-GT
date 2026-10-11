@@ -1,0 +1,11 @@
+command_id: 746.7B0.222613
+test_cases:
+- expected_values:
+    ETRONGT_HVAC_INTERIOR_T: 17
+  response: 7B00562261300AA
+- expected_values:
+    ETRONGT_HVAC_INTERIOR_T: 25.1
+  response: 7B00562261300FB
+- expected_values:
+    ETRONGT_HVAC_INTERIOR_T: 25.6
+  response: 7B0056226130100

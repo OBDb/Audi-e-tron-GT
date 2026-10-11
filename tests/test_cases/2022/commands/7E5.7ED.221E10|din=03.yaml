@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.221E10|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_T_AVG: 11
+  response: 7ED04621E106F
+- expected_values:
+    ETRONGT_BMS_T_AVG: 22
+  response: 7ED04621E107A
