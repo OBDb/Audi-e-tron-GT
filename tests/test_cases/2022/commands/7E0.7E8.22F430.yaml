@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    ETRONGT_WARM_UPS: 25
+  response: 7E80462F43019
+- expected_values:
+    ETRONGT_WARM_UPS: 100
+  response: 7E80462F43064
+- expected_values:
+    ETRONGT_WARM_UPS: 101
+  response: 7E80462F43065

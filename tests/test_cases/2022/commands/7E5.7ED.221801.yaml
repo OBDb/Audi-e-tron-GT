@@ -1,0 +1,14 @@
+command_id: 7E5.7ED.221801
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_VOLT: 738.2
+  response: 7ED056218011CD6
+- expected_values:
+    ETRONGT_HVBAT_VOLT: 742.2
+  response: 7ED056218011CFE
+- expected_values:
+    ETRONGT_HVBAT_VOLT: 742.7
+  response: 7ED056218011D03
+- expected_values:
+    ETRONGT_HVBAT_VOLT: 772.2
+  response: 7ED056218011E2A

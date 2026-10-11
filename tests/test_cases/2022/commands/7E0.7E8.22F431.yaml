@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    ETRONGT_CLR_DIST: 787
+  response: 7E80562F4310313
+- expected_values:
+    ETRONGT_CLR_DIST: 5548
+  response: 7E80562F43115AC
+- expected_values:
+    ETRONGT_CLR_DIST: 5570
+  response: 7E80562F43115C2

@@ -1,0 +1,14 @@
+command_id: 7E5.7ED.221802|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_I: -66.4
+  response: 7ED06621802023088
+- expected_values:
+    ETRONGT_BMS_I: -4.96
+  response: 7ED0662180202480F
+- expected_values:
+    ETRONGT_BMS_I: -4.96
+  response: 7ED066218020248FF
+- expected_values:
+    ETRONGT_BMS_I: 192.16
+  response: 7ED06621802029576

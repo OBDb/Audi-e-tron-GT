@@ -1,0 +1,22 @@
+command_id: 7E5.7ED.221E33|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_CELL_V_MAX: 3.734
+    ETRONGT_BMS_CELL_V_MAX_IDX: 2
+  response: 7ED06621E3391DC02
+- expected_values:
+    ETRONGT_BMS_CELL_V_MAX: 3.826
+    ETRONGT_BMS_CELL_V_MAX_IDX: 26
+  response: 7ED06621E3395741A
+- expected_values:
+    ETRONGT_BMS_CELL_V_MAX: 3.865
+    ETRONGT_BMS_CELL_V_MAX_IDX: 10
+  response: 7ED06621E3396FA0A
+- expected_values:
+    ETRONGT_BMS_CELL_V_MAX: 3.866
+    ETRONGT_BMS_CELL_V_MAX_IDX: 21
+  response: 7ED06621E33970415
+- expected_values:
+    ETRONGT_BMS_CELL_V_MAX: 3.919
+    ETRONGT_BMS_CELL_V_MAX_IDX: 23
+  response: 7ED06621E33991617

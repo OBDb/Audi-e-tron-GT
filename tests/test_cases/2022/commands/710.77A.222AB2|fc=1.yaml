@@ -1,0 +1,8 @@
+command_id: 710.77A.222AB2|fc=1
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_E_MAX: 7700
+  response: 77A07622AB2009A0400
+- expected_values:
+    ETRONGT_HVBAT_E_MAX: 7750
+  response: 77A07622AB2009B0400

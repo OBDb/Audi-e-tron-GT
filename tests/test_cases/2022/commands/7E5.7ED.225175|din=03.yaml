@@ -1,0 +1,11 @@
+command_id: 7E5.7ED.225175|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_V_DCHG_DYN_MIN: 649
+  response: 7ED05625175195A
+- expected_values:
+    ETRONGT_BMS_V_DCHG_DYN_MIN: 689
+  response: 7ED056251751AEA
+- expected_values:
+    ETRONGT_BMS_V_DCHG_DYN_MIN: 697
+  response: 7ED056251751B3A

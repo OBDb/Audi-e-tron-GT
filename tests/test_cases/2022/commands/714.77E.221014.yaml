@@ -1,0 +1,8 @@
+command_id: 714.77E.221014
+test_cases:
+- expected_values:
+    ETRONGT_DASH_AMBIENT_AIR_T: 6.5
+  response: '77E0462101471'
+- expected_values:
+    ETRONGT_DASH_AMBIENT_AIR_T: 17
+  response: '77E0462101486'

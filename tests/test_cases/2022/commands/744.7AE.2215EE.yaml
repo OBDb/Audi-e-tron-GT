@@ -1,0 +1,8 @@
+command_id: 744.7AE.2215EE
+test_cases:
+- expected_values:
+    ETRONGT_CHRGR_DUR_TOTAL: 70756
+  response: 7AE076215EE00011464
+- expected_values:
+    ETRONGT_CHRGR_DUR_TOTAL: 88580
+  response: 7AE076215EE00015A04

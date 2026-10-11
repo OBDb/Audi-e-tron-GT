@@ -1,0 +1,12 @@
+command_id: 7E5.7ED.22183B|din=03
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_MOD27_T1: 12
+    ETRONGT_HVBAT_MOD27_T2: 12
+    ETRONGT_HVBAT_MOD27_T3: 18
+  response: 7ED0662183B3E3E44
+- expected_values:
+    ETRONGT_HVBAT_MOD27_T1: 23
+    ETRONGT_HVBAT_MOD27_T2: 23
+    ETRONGT_HVBAT_MOD27_T3: 29
+  response: 7ED0662183B49494F

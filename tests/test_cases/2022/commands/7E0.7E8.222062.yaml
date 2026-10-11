@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222062
+test_cases:
+- expected_values:
+    ETRONGT_APP_POS2: 0.376
+  response: '7E8056220620178'
+- expected_values:
+    ETRONGT_APP_POS2: 0.516
+  response: '7E8056220620204'
+- expected_values:
+    ETRONGT_APP_POS2: 0.764
+  response: 7E80562206202FC
+- expected_values:
+    ETRONGT_APP_POS2: 0.937
+  response: 7E80562206203A9

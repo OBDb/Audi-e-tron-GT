@@ -1,0 +1,23 @@
+command_id: 746.7B0.2226ED|fc=1,din=03
+test_cases:
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 0.9
+  response: 7B0076226ED095E3C00
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 1
+  response: 7B0076226ED0A984680
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 1.1
+  response: 7B0076226ED0BEA6200
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 1.2
+  response: 7B0076226ED0C129000
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 1.2
+  response: 7B0076226ED0C50FB00
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 1.4
+  response: 7B0076226ED0E495500
+- expected_values:
+    ETRONGT_AIR_POLLUTION: 1.4
+  response: 7B0076226ED0E4F2F00

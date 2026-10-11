@@ -1,0 +1,26 @@
+command_id: FC00.FE007B.221E0E|ta=7B,c=17
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 456.14062
+  response: 17FE007B05621E0E7209
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 472.07812
+  response: 17FE007B05621E0E7605
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 472.14062
+  response: 17FE007B05621E0E7609
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 476.07812
+  response: 17FE007B05621E0E7705
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 476.14062
+  response: 17FE007B05621E0E7709
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 480.14062
+  response: 17FE007B05621E0E7809
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 480.42188
+  response: 17FE007B05621E0E781B
+- expected_values:
+    ETRONGT_HVBAT_T_MAX_V2: 480.48438
+  response: 17FE007B05621E0E781F

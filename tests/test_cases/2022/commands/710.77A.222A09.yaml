@@ -1,0 +1,17 @@
+command_id: 710.77A.222A09
+test_cases:
+- expected_values:
+    ETRONGT_SSB_C: 0.042
+  response: 77A07622A090000002A
+- expected_values:
+    ETRONGT_SSB_C: 0
+  response: 77A07622A09FFFF897C
+- expected_values:
+    ETRONGT_SSB_C: 0
+  response: 77A07622A09FFFFE7F5
+- expected_values:
+    ETRONGT_SSB_C: 0
+  response: 77A07622A09FFFFFB00
+- expected_values:
+    ETRONGT_SSB_C: 0
+  response: 77A07622A09FFFFFF2F

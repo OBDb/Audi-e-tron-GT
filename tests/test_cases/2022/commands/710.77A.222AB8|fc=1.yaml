@@ -1,0 +1,32 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_E_CONTENT: 41.4
+  response: |-
+    77A100B622AB8000006
+    77A217800000000AAAA
+- expected_values:
+    ETRONGT_HVBAT_E_CONTENT: 42.375
+  response: |-
+    77A100B622AB8000006
+    77A219F00000000AAAA
+- expected_values:
+    ETRONGT_HVBAT_E_CONTENT: 44.775
+  response: |-
+    77A100B622AB8000006
+    77A21FF00000000AAAA
+- expected_values:
+    ETRONGT_HVBAT_E_CONTENT: 44.9
+  response: |-
+    77A100B622AB8000007
+    77A210400000000AAAA
+- expected_values:
+    ETRONGT_HVBAT_E_CONTENT: 51.75
+  response: |-
+    77A100B622AB8000008
+    77A211600000000AAAA
+- expected_values:
+    ETRONGT_HVBAT_E_CONTENT: 52
+  response: |-
+    77A100B622AB8000008
+    77A212000000000AAAA

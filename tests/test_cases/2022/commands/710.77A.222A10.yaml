@@ -1,0 +1,14 @@
+command_id: 710.77A.222A10
+test_cases:
+- expected_values:
+    ETRONGT_BAT_V_AT_REST: 13.6
+  response: 77A04622A102E
+- expected_values:
+    ETRONGT_BAT_V_AT_REST: 13.8
+  response: 77A04622A1030
+- expected_values:
+    ETRONGT_BAT_V_AT_REST: 13.9
+  response: 77A04622A1031
+- expected_values:
+    ETRONGT_BAT_V_AT_REST: 14.2
+  response: 77A04622A1034

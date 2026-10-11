@@ -1,0 +1,23 @@
+command_id: 7E5.7ED.22180C|din=03
+test_cases:
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 15
+  response: 7ED0462180C41
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 16
+  response: 7ED0462180C42
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 17
+  response: 7ED0462180C43
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 18
+  response: 7ED0462180C44
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 19
+  response: 7ED0462180C45
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 21
+  response: 7ED0462180C47
+- expected_values:
+    ETRONGT_BMS_BMCE_T1: 25
+  response: 7ED0462180C4B

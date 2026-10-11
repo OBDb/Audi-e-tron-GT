@@ -1,0 +1,14 @@
+command_id: FC00.FE007B.221E33|ta=7B,c=17
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_CELL_V_MAX_V2: 15.997
+  response: 17FE007B06621E33923602
+- expected_values:
+    ETRONGT_HVBAT_CELL_V_MAX_V2: 15.997
+  response: 17FE007B06621E3392F402
+- expected_values:
+    ETRONGT_HVBAT_CELL_V_MAX_V2: 15.997
+  response: 17FE007B06621E33944821
+- expected_values:
+    ETRONGT_HVBAT_CELL_V_MAX_V2: 15.997
+  response: 17FE007B06621E3396BE17

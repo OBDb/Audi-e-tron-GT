@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221151
+test_cases:
+- expected_values:
+    ETRONGT_EM_RPM_1: 0
+  response: '7E8056211510000'
+- expected_values:
+    ETRONGT_EM_RPM_1: 5494
+  response: 7E8056211512AEC
+- expected_values:
+    ETRONGT_EM_RPM_1: -223
+  response: 7E805621151FE42

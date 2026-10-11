@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F442
+test_cases:
+- expected_values:
+    ETRONGT_VPWR: 12.48
+  response: 7E80562F44230C0
+- expected_values:
+    ETRONGT_VPWR: 12.539
+  response: 7E80562F44230FB
+- expected_values:
+    ETRONGT_VPWR: 12.558
+  response: 7E80562F442310E
