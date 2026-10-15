@@ -1,6 +1,9 @@
 command_id: 7E5.7ED.2251E0
 test_cases:
 - expected_values:
+    ETRONGT_HVBAT_SOH: 83.058
+  response: 7ED056251E039E0
+- expected_values:
     ETRONGT_HVBAT_SOH: 83.693
   response: 7ED056251E039E5
 - expected_values:

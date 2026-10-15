@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.22180A
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_V_180A: 706.3
+  response: 7ED0562180A1B97
+- expected_values:
+    ETRONGT_HVBAT_V_180A: 706.9
+  response: 7ED0562180A1B9D

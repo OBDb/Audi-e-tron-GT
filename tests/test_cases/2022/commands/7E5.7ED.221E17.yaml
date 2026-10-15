@@ -1,0 +1,5 @@
+command_id: 7E5.7ED.221E17
+test_cases:
+- expected_values:
+    ETRONGT_HV_ISO_POS_SYS: 1970
+  response: 7ED06621E1700C504
