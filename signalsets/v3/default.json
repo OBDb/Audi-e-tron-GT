@@ -3,7 +3,7 @@
   "signals": [
     {"id": "ETRONGT_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "12V battery target voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A06"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A06"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_12V_BAT_CAP", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 255, "unit": "ampereHours" }, "name": "12V battery capacity"}
   ]},
@@ -35,7 +35,7 @@
   "signals": [
     {"id": "ETRONGT_BAT_V_AT_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Battery voltage at rest"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A25"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_BAT_R_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
@@ -76,15 +76,15 @@
   "signals": [
     {"id": "ETRONGT_HVBAT_E_CONTENT", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1638, "mul": 25, "div": 1000, "unit": "kilowattHours" }, "name": "HV battery energy content", "description": "Energy stored in the high voltage battery"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "5505"}, "freq": 5,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "5505"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2005"}, "freq": 5,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "2005"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_P_BRAKE_SERVO_UNIT", "path": "Control", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "unknown" }, "name": "Pressure in brake servo unit"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "2B21"}, "freq": 5,
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "2B21"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_BRAKE_P", "path": "Control", "fmt": { "len": 16, "max": 458.8288, "min": -543.8501, "mul": 152999, "div": 10000000, "add": -42.503, "sign": true, "unit": "bars" }, "name": "Brake pressure"}
   ]},
@@ -96,7 +96,7 @@
   "signals": [
     {"id": "ETRONGT_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "220C"}, "freq": 5,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -108,7 +108,7 @@
   "signals": [
     {"id": "ETRONGT_TRON_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "22B8"}, "freq": 30,
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR"}
   ]},
@@ -255,11 +255,11 @@
   "signals": [
     {"id": "ETRONGT_OBC_T_A", "path": "Battery", "fmt": {"bix": 8, "len": 16, "max": 6498.5, "min": -55, "div": 10, "add": -55, "unit": "celsius" }, "name": "Temperature sensor, socket a"}
   ]},
-{ "hdr": "744", "rax": "7AE", "dbg": true, "cmd": {"22": "4237"}, "freq": 5,
+{ "hdr": "744", "rax": "7AE", "cmd": {"22": "4237"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_CHG_HV_I", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 63.749, "div": 4, "unit": "amps" }, "name": "Charger output current"}
   ]},
-{ "hdr": "744", "rax": "7AE", "dbg": true, "cmd": {"22": "4238"}, "freq": 30,
+{ "hdr": "744", "rax": "7AE", "cmd": {"22": "4238"}, "freq": 30, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_CHG_HV_I_SET", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 63.749, "div": 4, "unit": "amps" }, "name": "Charger output current set point"}
   ]},
@@ -453,11 +453,11 @@
   "signals": [
     {"id": "ETRONGT_BMS_I", "path": "Battery", "fmt": { "len": 16, "max": 166269, "min": -1500, "mul": 2.56, "add": -1500, "nullmin": -1500, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "180A"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HVBAT_V_180A", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 2", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "180B"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "180B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HVBAT_V_180B", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 3", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},
@@ -481,11 +481,11 @@
   "signals": [
     {"id": "ETRONGT_BMS_BMCE_T_CAN", "path": "Engine", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "BMC-E temperature, 4"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1818"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1818"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HVBAT_V_1818", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 4", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "181B"}, "freq": 1,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "181B"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HVBAT_V_181B", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "HV battery voltage, measurement 5", "description": "Reads within 1 V of the pack voltage on 1801; which point of the pack it measures is not known."}
   ]},
@@ -1245,19 +1245,19 @@
   "signals": [
     {"id": "ETRONGT_BMS_T_AVG", "path": "Battery", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "celsius" }, "name": "HV battery temperature, average"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E17"}, "freq": 5,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1E17"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HV_ISO_POS_SYS", "path": "Battery", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kiloohms" }, "name": "HV system isolation resistance, positive"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E18"}, "freq": 5,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1E18"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HVBAT_ISO_POS", "path": "Battery", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kiloohms" }, "name": "HV battery isolation resistance, positive"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E19"}, "freq": 5,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1E19"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HV_ISO_NEG_SYS", "path": "Battery", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kiloohms" }, "name": "HV system isolation resistance, negative"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "1E1A"}, "freq": 5,
+{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "1E1A"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "ETRONGT_HVBAT_ISO_NEG", "path": "Battery", "fmt": { "len": 16, "max": 655350, "mul": 10, "unit": "kiloohms" }, "name": "HV battery isolation resistance, negative"}
   ]},

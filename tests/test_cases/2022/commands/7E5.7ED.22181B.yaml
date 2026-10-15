@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.22181B
+test_cases:
+- expected_values:
+    ETRONGT_HVBAT_V_181B: 706.7
+  response: 7ED0562181B1B9B
+- expected_values:
+    ETRONGT_HVBAT_V_181B: 707.3
+  response: 7ED0562181B1BA1

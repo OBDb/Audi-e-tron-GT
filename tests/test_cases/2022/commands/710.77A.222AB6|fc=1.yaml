@@ -1,6 +1,11 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
+    ETRONGT_RANGE: 98
+  response: |-
+    77A100A622AB6006200
+    77A216207FD00AAAAAA
+- expected_values:
     ETRONGT_RANGE: 110
   response: |-
     77A100A622AB6006E00
