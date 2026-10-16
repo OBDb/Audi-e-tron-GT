@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ETRONGT_ODO_MILEAGE_HR: 55433.529
   response: 77E076222B8034DD939
+- expected_values:
+    ETRONGT_ODO_MILEAGE_HR: 55433.533
+  response: 77E076222B8034DD93D

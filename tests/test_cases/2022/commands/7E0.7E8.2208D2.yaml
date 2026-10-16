@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2208D2
 test_cases:
 - expected_values:
-    ETRONGT_HVBAT_SOC_DISP: 58.15
-  response: 7E8076208D216B716B7
+    ETRONGT_HVBAT_SOC_DISP: 25.05
+  response: 7E8076208D209C909C9
 - expected_values:
     ETRONGT_HVBAT_SOC_DISP: 63.96
   response: 7E8076208D218FC18FC

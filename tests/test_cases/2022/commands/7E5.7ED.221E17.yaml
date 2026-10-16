@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ETRONGT_HV_ISO_POS_SYS: 1970
   response: 7ED06621E1700C504
+- expected_values:
+    ETRONGT_HV_ISO_POS_SYS: 655350
+  response: 7ED06621E17FFFF00
