@@ -6,6 +6,11 @@ test_cases:
     77D1009622B210ADA0A
     77D21F8FFFE00000000
 - expected_values:
+    ETRONGT_BRAKE_P: 0.15312
+  response: |-
+    77D1009622B210AE40A
+    77D21F4FFFE00000000
+- expected_values:
     ETRONGT_BRAKE_P: 7.97137
   response: |-
     77D1009622B210CE30D

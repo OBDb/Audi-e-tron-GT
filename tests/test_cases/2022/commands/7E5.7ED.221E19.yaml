@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ETRONGT_HV_ISO_NEG_SYS: 2030
   response: 7ED06621E1900CB04
+- expected_values:
+    ETRONGT_HV_ISO_NEG_SYS: 655350
+  response: 7ED06621E19FFFF00

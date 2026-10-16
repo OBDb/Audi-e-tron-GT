@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ETRONGT_HVBAT_V_180A: 706.9
   response: 7ED0562180A1B9D
+- expected_values:
+    ETRONGT_HVBAT_V_180A: 708.1
+  response: 7ED0562180A1BA9
