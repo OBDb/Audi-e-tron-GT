@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     ETRONGT_HVBAT_SOC_DISP: 71.68
   response: 7E8076208D21C001C00
+- expected_values:
+    ETRONGT_HVBAT_SOC_DISP: 79.72
+  response: 7E8076208D21F241F24
