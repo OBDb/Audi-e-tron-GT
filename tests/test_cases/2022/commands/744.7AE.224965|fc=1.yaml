@@ -11,15 +11,20 @@ test_cases:
     7AE100D624965014D7F
     7AE21FA0115E0021E76
 - expected_values:
+    ETRONGT_HVBAT_KWH: 28.55
+  response: |-
+    7AE100D624965023B81
+    7AE211801152103546D
+- expected_values:
+    ETRONGT_HVBAT_KWH: 29
+  response: |-
+    7AE100D62496502447F
+    7AE21EE01151103606D
+- expected_values:
     ETRONGT_HVBAT_KWH: 41.85
   response: |-
     7AE100D62496503457F
     7AE21AF01115F04B175
-- expected_values:
-    ETRONGT_HVBAT_KWH: 42.95
-  response: |-
-    7AE100D624965035B7F
-    7AE212E0110DB04CE74
 - expected_values:
     ETRONGT_HVBAT_KWH: 43.65
   response: |-
@@ -50,11 +55,6 @@ test_cases:
   response: |-
     7AE100D62496503A87A
     7AE21C3010DA105306D
-- expected_values:
-    ETRONGT_HVBAT_KWH: 50.8
-  response: |-
-    7AE100D62496503F881
-    7AE213C010C0D057B6A
 - expected_values:
     ETRONGT_HVBAT_KWH: 50.9
   response: |-
