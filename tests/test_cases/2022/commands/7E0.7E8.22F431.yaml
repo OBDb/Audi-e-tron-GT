@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ETRONGT_CLR_DIST: 7416
   response: 7E80562F4311CF8
+- expected_values:
+    ETRONGT_CLR_DIST: 7553
+  response: 7E80562F4311D81
